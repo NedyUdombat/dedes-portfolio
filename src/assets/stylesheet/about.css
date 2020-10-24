@@ -1,0 +1,37 @@
+#about {
+  background: #111a28;
+  height: 75vh;
+}
+
+#about .row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#about .row .img-div {
+   width: 300px;
+  padding: 0 100px;
+}
+
+#about .row .img-div .headshot {
+   width: 300px;
+   height: 300px;
+}
+
+#about .row .details{
+   flex: 1;
+  padding: 0 100px 0 0;
+}
+
+
+#about .row .details h2{
+       font: bold 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+#about .row .details p{
+       line-height: 30px;
+    color: #ccc;
+}

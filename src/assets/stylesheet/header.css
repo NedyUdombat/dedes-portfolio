@@ -1,0 +1,99 @@
+#home {
+  background: #111a28;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#home canvas{
+  z-index: 0 !important;
+  opacity: .2;
+  background: #111a28;
+}
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+   outline: none;
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+#nav-wrap #nav li {
+   list-style-type: none;
+   padding: 15px;
+}
+
+#nav-wrap #nav li:hover {
+   border-bottom: 1px solid #ffffff;
+}
+
+#nav-wrap #nav li.current a {
+   font-weight: 500;
+}
+
+/* nav-wrap */
+#nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+}
+
+#nav-wrap #nav {
+   display: flex;
+   width: 50%;
+   justify-content: center;
+  background: #111a28;
+   position: fixed;
+   z-index: 100;
+   top: 0;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .3);
+}
+
+#home .row.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#home .row .banner-text {
+  width: 90%;
+  text-align: center;
+}
+
+
+/* #home .row .banner-text .logo {
+  width: 200px;
+} */
+
+#home .row .banner-text h1 {
+   font: bold 24px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   letter-spacing: -.5px;
+   margin: 0 auto 18px auto;
+}
+
+#home .row  .banner-text h3 {
+   font: 18px/24px 'librebaskerville-regular', serif;
+   color: #ddd;
+   margin: 0 auto;
+   width: 70%;
+}
+#home .row  .banner-text h3 span,
+#home .row  .banner-text h3 a {
+   color: #fff;
+}
+
+#home .row  .banner-text hr {
+   width: 50%;
+   margin: 18px auto 24px auto;
+   border-color: rgba(196, 196, 196, .5);
+}
